@@ -1,6 +1,6 @@
 import React from 'react'
 import gambar1 from "../assets/gambar1.jpg"
-import gambar2 from "../assets/gambar2.jpg"
+import gambar2 from "../assets/gambar5.jpg"
 import gambar3 from "../assets/gambar3.jpg"
 import gambar4 from "../assets/gambar7.jpg"
 import gambar5 from "../assets/gambar6.jpg"

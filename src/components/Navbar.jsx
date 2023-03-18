@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='w-screen bg-black z-10 justify-between fixed drop-shadow-lg px-16 py-3'>
       <div className='flex justify-between items-center w-full'>
-        <div className='font-extrabold text-xl'><p>BU-ILD</p></div>
+        <div className='font-extrabold text-xl'><p>BOU-ILD</p></div>
         <div className='lg:text-lg'>
           <ul className='hidden md:flex justify-between font-bold md:gap-5'>
             <li className='hover:text-gray-500 relative cursor-pointer transition-all 
