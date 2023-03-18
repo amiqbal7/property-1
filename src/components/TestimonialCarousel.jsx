@@ -50,22 +50,22 @@ const TestimonialCarousel = () => {
 
   return (
     <div className='py-16 mx-auto grid justify-items-center rounded-md'>
-      <div  className=''>
+      <div  className='max-w-4xl mx-7'>
         <div>
           <h1 className='font-extrabold text-3xl text-center pb-5'>THIS IS TESTIMONIALS</h1>
         </div>
-        <div className="max-w-4xl bg-white py-16 pt-7">
+        <div className=" mx-7 bg-white py-16">
         <Slider {...settings}>
           {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="px-5">
+            <div key={testimonial.id} className="mx-5">
               <div className="flex items-center">
                 <img
                 src={avatar}
                   alt={testimonial.name}
                   className="rounded-full w-12 h-12 mr-4"
                 />
-                <div>
-                  <p className="font-semibold">{testimonial.name}</p>
+                <div className=''>
+                  <p className="font-semibold text-xl text-black">{testimonial.name}</p>
                   <p className="text-gray-500">{testimonial.company}</p>
                 </div>
                 

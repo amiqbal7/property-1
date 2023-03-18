@@ -33,13 +33,13 @@ function Accordion() {
         {accordionData.map((section, index) => (
         <div
           key={index}
-          className="border overflow-hidden mb-4"
+          className="border-b-2 overflow-hidden mb-4"
         >
           <div
             className="flex items-center justify-between p-4 cursor-pointer"
             onClick={() => toggleAccordion(index)}
           >
-            <h2 className="font-medium text-lg">{section.title}</h2>
+            <h1 className="font-bold text-xl">{section.title}</h1>
             <svg
               className={`w-6 h-6 transition-transform transform ${
                 activeIndex === index ? 'rotate-180' : ''

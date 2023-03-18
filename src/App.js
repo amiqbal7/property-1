@@ -8,6 +8,9 @@ import About from "./components/About";
 import Konsul from "./components/Konsul";
 import WhyChoose from "./components/WhyChoose";
 import TestimonialCarousel from './components/TestimonialCarousel';
+import CardSection from "./components/CardSection";
+import Map from "./components/Map";
+import Footer from "./components/Footer";
 
 
 
@@ -22,8 +25,11 @@ function App() {
     <YouGet />
     <About />
     <Konsul />
-    <TestimonialCarousel />
+    <Map />
     <Accordion />
+    <Footer />
+
+
     
     
 
