@@ -9,15 +9,15 @@ function Accordion() {
 
   const accordionData = [
     {
-      title: 'Section 1',
+      title: 'What is BOU-ILD ?',
       content: 'This is the content for section 1',
     },
     {
-      title: 'Section 2',
+      title: 'How do i want customize my house ?',
       content: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit explicabo quibusdam, et aspernatur similique, voluptas nobis, incidunt dignissimos accusamus distinctio repudiandae fugit aliquam nulla',
     },
     {
-      title: 'Section 3',
+      title: 'What benefit i get ?',
       content: 'This is the content for section 3',
     },
   ];
@@ -26,7 +26,7 @@ function Accordion() {
     <div className='mx-7 py-20'>
         <div className=" mx-auto grid md:grid-cols-2 gap-10">
             <div className='text-center md:text-start'>
-                <h1 className='pb-2 font-extrabold text-9xl'>FAQ</h1>
+                <h1 className='pb-2 font-extrabold text-9xl text-white'>FAQ</h1>
                 <p className='text-sm md:mr-16'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit explicabo quibusdam, et aspernatur similique, voluptas nobis, incidunt dignissimos accusamus distinctio repudiandae fugit aliquam nulla totam. Debitis error assumenda mollitia dolorum!</p>
             </div>
         <div>
@@ -39,7 +39,7 @@ function Accordion() {
             className="flex items-center justify-between p-4 cursor-pointer"
             onClick={() => toggleAccordion(index)}
           >
-            <h1 className="font-bold text-xl">{section.title}</h1>
+            <h1 className="font-semibold text-xl text-white">{section.title}</h1>
             <svg
               className={`w-6 h-6 transition-transform transform ${
                 activeIndex === index ? 'rotate-180' : ''

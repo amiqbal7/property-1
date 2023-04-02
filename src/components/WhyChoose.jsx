@@ -1,7 +1,7 @@
 import React from 'react'
 import { CiAlarmOn } from "react-icons/ci";
 
-const Support = () => {
+const WhyChoose = () => {
   return (
     <div className='mx-7'>
       <div>
@@ -38,4 +38,4 @@ const Support = () => {
   )
 }
 
-export default Support
+export default WhyChoose
